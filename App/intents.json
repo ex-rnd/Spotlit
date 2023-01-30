@@ -1,0 +1,182 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye", "See you later", "Goodbye"
+        ],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": [
+          "Happy to help!", "Any time!", "My pleasure"
+        ]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+      {
+        "tag": "age",
+        "patterns": [
+          "how old", 
+          "how old is florian", 
+          "what is your age", 
+          "how old are you", "age?"
+        ],
+        "responses": [
+          "I am one month old", 
+          "A few weeks old!", 
+          "Just beyond a fortnight!"
+        ]
+    },
+
+    {
+        "tag": "name",
+        "patterns": [
+          "what is your name?", 
+          "what should i call you?", 
+          "what's your name?'", 
+          "who are you", 
+          "can you tell me your name?"],
+        "responses": [
+          "Just call me Spotlit", 
+          "i'm Spotlit", 
+          "Chat Assist Bot!"
+        ]
+    },
+
+    {
+        "tag": "hours",
+        "patterns": [
+          "when are you guys open?", 
+          "what are your hours?", 
+          "hours of opening?"
+        ],
+        "responses": [
+          "Everyday 24/7!", 
+          "All weekdays", 
+          "Only on weekdays!"
+        ]
+    },
+
+    {
+        "tag": "insult",
+        "patterns": [
+          "idiot", 
+          "loser", 
+          "ass", 
+          "stupid", 
+          "ugly", 
+          "bastard", 
+          "dumb", 
+          "fat", 
+          "rat", 
+          "dog", 
+          "shit"
+        ],
+        "responses": [
+          "Don't say that.", 
+          "Kind words go a long way!", 
+          "Please say something nice!"]
+    },
+
+    {
+        "tag": "curse",
+        "patterns": [
+          "fuck", 
+          "dick", 
+          "pussy", 
+          "bitch", 
+          "cunt", 
+          "pedophile", 
+          "anus", 
+          "pig", 
+          "asshole", 
+          "shit", 
+          "hell", 
+          "rubbish",
+          "tits", 
+          "retard",
+          "bollocks", 
+          "banger"
+        ],
+        "responses": [
+          "Be decent.", 
+          "Peace is mutual.", 
+          "Get some manners!"]
+    }
+
+
+
+
+    ]
+  }
