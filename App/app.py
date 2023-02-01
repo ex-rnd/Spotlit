@@ -28,8 +28,10 @@ def get_prediction_proba(docx):
 
 
 # Emoji - Dictionary
-emotions_emoji_dict = {"anger":"😠","disgust":"🤮", "fear":"😨😱", "happy":"🤗",
-                       "joy":"😂", "neutral":"😐", "sad":"😔", "sadness":"😔",
+emotions_emoji_dict = {"anger":"😠","disgust":"🤮", 
+                       "fear":"😨😱", "happy":"🤗",
+                       "joy":"😂", "neutral":"😐", 
+                       "sad":"😔", "sadness":"😔",
                        "shame":"😳", "surprise":"😮"}
 
 
