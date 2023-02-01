@@ -169,43 +169,46 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
+
+
 ## Training the Pytorch Model
 # Train the model 
-for epoch in range(num_epochs):
-    for (words, labels) in train_loader:
-        words = words.to(device)
-        labels = labels.to(dtype=torch.long).to(device)
-        
+#for epoch in range(num_epochs):
+ #   for (words, labels) in train_loader:
+  #      words = words.to(device)
+   #     labels = labels.to(dtype=torch.long).to(device)
+    #    
         # forward pass
-        outputs = model(words)
+     #   outputs = model(words)
         # if y would be one-bot, we must apply 
         # labels = torch.max(labels, 1)[1]
-        loss = criterion(outputs, labels)
+      #  loss = criterion(outputs, labels)
         
         # backward and optimize
-        optimizer.zero_grad()
-        loss.backward()
-        optimizer.step()
+       # optimizer.zero_grad()
+        #loss.backward()
+        #optimizer.step()
         
-    if (epoch+1) % 100 == 0:
-        pass
+    #if (epoch+1) % 100 == 0:
+     #   pass
         #print(f'Epoch [{epoch+1}/{num_epochs}], loss: {loss.item():.4f}')
         
 # print(f'final loss: {loss.item():.4f}')
 
-data = {
-"model_state": model.state_dict(),
-"input_size": input_size,
-"hidden_size": hidden_size,
-"output_size": output_size,
-"all_words": all_words,
-"tags": tags  
-}
+#"model_state": model.state_dict(),
+#"input_size": input_size,
+#"hidden_size": hidden_size,
+#"output_size": output_size,
+#"all_words": all_words,
+#"tags": tags  
+#}
 
 
 # # Saving the Model
-File = "data.pth"
-torch.save(data, File)
+#File = "data.pth"
+#torch.save(data, File)
+
+
 
 # # Loading the Trained Model
 # Loading the saved model
