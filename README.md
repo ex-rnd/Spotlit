@@ -1,4 +1,4 @@
-# Spotlit
+# Spotlit 1.0
 An ML App using NLP to assisst in reducing the down sides of  human nature in communication such as insults and negative emotions when texting online.
 
 
